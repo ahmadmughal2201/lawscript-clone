@@ -48,17 +48,17 @@ const ChatPage = () => {
                 )}
                 <div ref={messagesEndRef} />
             </div>
-            <div className="h-14 bg-gray-100 flex items-center p-4 border-t border-gray-200  rounded-3xl">
+            <div className="h-10 bg-gray-100 flex items-center  border-t border-gray-200  rounded-3xl">
                 <input
                     type="text"
-                    className="flex-1  p-2 mr-2 focus:outline-none bg-transparent"
+                    className="flex-1  p-4 mr-2 focus:outline-none bg-transparent"
                     placeholder="Ask AI Something..."
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
                     style={{ boxShadow: 'none' }}
                 />
                 <button
-                    className="bg-slate-900 text-white p-2 rounded-3xl"
+                    className="bg-slate-900 h-full text-white px-4 rounded-3xl"
                     onClick={sendMessage}
                 >
                     Send
