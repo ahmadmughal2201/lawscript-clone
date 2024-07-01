@@ -1,7 +1,7 @@
 import Link from "next/link";
 const Page = () => {
     return (
-        <div className="grid grid-cols-2 gap-2 py-2 h-[50vh]"  style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+        <div className="grid grid-cols-2 gap-2 overflow-y-scroll py-2 h-[90vh]"  style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
             <Link href={'/chat'} >
             <div className="w-full h-96 rounded-xl bg-gray-100 flex flex-col justify-center items-center p-4">
                 <h2 className="text-2xl font-bold mb-2">Research Law</h2>
