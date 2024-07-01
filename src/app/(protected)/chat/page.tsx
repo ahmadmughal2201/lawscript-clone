@@ -48,7 +48,7 @@ const ChatPage = () => {
                 )}
                 <div ref={messagesEndRef} />
             </div>
-            <div className="h-10 bg-gray-100 flex items-center  border-t border-gray-200  rounded-3xl">
+            <div className="h-12 bg-gray-100 flex items-center  border-t border-gray-200  rounded-3xl">
                 <input
                     type="text"
                     className="flex-1  p-4 mr-2 focus:outline-none bg-transparent"
